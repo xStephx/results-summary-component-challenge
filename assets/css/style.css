@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap');
+
+:root{
+    /* Colors */
+
+    /* Primary */
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+
+    /* Gradients */
+    --Light-slate-blue-background: hsl(252, 100%, 67%);
+    --Light-royal-blue-background: hsl(241, 81%, 54%);
+
+    --Violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --Persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+
+    /* Fonts */
+    --font-size-p: 18px;
+    --font-family:  'Hanken Grotesk', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--White);
+}
+
+p{
+    font-size: var(--font-size-p);
+}
+
+.container{
+    display: flex;
+    border-radius: 20px;
+    width: 45%;
+    box-shadow: 3px 3px var(--Pale-blue);
+
+}
+.item-1{
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
+    border-radius: 20px;
+    color: var(--Light-lavender);
+}
+.item-1 h1{
+    color: var(--White);
+}
+.item-1 h3{
+    font-size: 25px;
+}
+
+.circle{
+    background-image: linear-gradient(to bottom, var(--Violet-blue-circle), var( --Persian-blue-circle));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    line-height: 1px;
+    color: var(--Light-lavender);
+}
+
+#big-num{
+    color: var(--White);
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.item-2{
+    width: 50%;
+    padding: 50px;
+}
+.item-2 h3{
+    color: var(--Dark-gray-blue);
+    font-size: 25px;
+}
+.for-data{
+    padding: 5px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.for-data{
+    display: flex;
+    text-align: center;
+}
+.space-1{
+    flex-basis: 50%;
+}
+.space-2{
+    flex-basis: 50%;
+}
+.reaction {
+    color: var(--Light-red);
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+.memory{
+    color: var(--Orangey-yellow);
+    background-color: hsla(39, 100%, 56%, 0.1);;
+}
+.verbal{
+    color: var(--Green-teal);
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+.visual{
+    color: var(--Cobalt-blue);
+    background-color: hsla(234, 85%, 45%, 0.1);
+    margin-bottom: 35px;
+}
+span{
+    font-size: 20px;
+}
+.span-dark-text{
+    color: var(--Dark-gray-blue);
+    right: 70px;
+}
+.span-lighter-text{
+    color: var(--Light-lavender);
+}
+.btn{
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 25px;
+    background-color:var(--Dark-gray-blue) ;
+    color: var(--White);
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, var(--Light-slate-blue-background), var(--Light-royal-blue-background));
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width: 768px) {
+    body{
+        height: 150vh;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .item-1,
+    .item-2 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+
