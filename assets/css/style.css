@@ -69,7 +69,7 @@ p{
 }
 
 .circle{
-    background-image: linear-gradient(to bottom, var(--Violet-blue-circle), var( --Persian-blue-circle));
+    background-image: linear-gradient(to bottom, var(--Violet-blue-circle), var(--Persian-blue-circle));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,11 +90,12 @@ p{
 
 .item-2{
     width: 50%;
-    padding: 50px;
+    padding: 40px;
 }
 .item-2 h3{
     color: var(--Dark-gray-blue);
     font-size: 25px;
+    margin-top: 15px;
 }
 .for-data{
     padding: 5px;
@@ -104,6 +105,7 @@ p{
 .for-data{
     display: flex;
     text-align: center;
+    padding: 15px 5px;
 }
 .space-1{
     flex-basis: 50%;
@@ -126,7 +128,7 @@ p{
 .visual{
     color: var(--Cobalt-blue);
     background-color: hsla(234, 85%, 45%, 0.1);
-    margin-bottom: 35px;
+    margin-bottom: 55px;
 }
 span{
     font-size: 20px;
