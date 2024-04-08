@@ -9,6 +9,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ![](./assets/images/screenshot.PNG)
 
+You can check it out live [here](https://xstephx.github.io/results-summary-component-challenge/).
+
 ## My process
 
 ### Built with
